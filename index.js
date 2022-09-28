@@ -8,7 +8,7 @@ bot.on('ready', () => {
     console.info(`Logged in as ${bot.user.tag}!`);
 });
 
-bot.login("TOKEN")
+bot.login("MTAyNDc0NjYwODIwMzY2MTM4Mg.GxHhwm.i8-VKicAzotDSzB92jlVzaJMvg7fUvtiu4JHFk")
 
 bot.on('message', msg => {
     
@@ -211,7 +211,7 @@ bot.on('message', msg => {
                         .setColor("#c73e10")
                         .addField("Server Name", `\`${name}\``.substring(0, 390))
                         .addField("Server Tags", `\`${tags}\``.substring(0, 1024))
-                        .setFooter("Coded by 𝗮𝗹𝗲𝗷𝗮𝗻𝗱𝗿𝗼𝗺𝘂𝗺𝗲#𝟐𝟎𝟔𝟒")
+                        .setFooter("pateu finder")
                         msg.channel.send(mensaje);
 
                     }else{

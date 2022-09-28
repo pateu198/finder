@@ -31,7 +31,7 @@ bot.on('message', msg => {
                 .setColor("#c73e10")
                 .setAuthor(msg.author.tag, msg.author.avatarURL())
                 .setDescription("```\n Invalid Code```")
-                .setFooter("Coded by 𝗮𝗹𝗲𝗷𝗮𝗻𝗱𝗿𝗼𝗺𝘂𝗺𝗲#𝟐𝟎𝟔𝟒")
+                .setFooter("pateu finder")
                 msg.channel.send(mensaje);
 
             }else{
@@ -59,7 +59,7 @@ bot.on('message', msg => {
                                         .addField("IP:Port", `\`${out["Data"]["connectEndPoints"][0]}\`\n\n/players.json: [Click here](http://${out["Data"]["connectEndPoints"][0]}/players.json)\n/info.json: [Click here](http://${out["Data"]["connectEndPoints"][0]}/info.json)\n/dynamic.json: [Click here](http://${out["Data"]["connectEndPoints"][0]}/dynamic.json)`)
                                         .addField("Server Details", `IP: \`${split[0]}\`\n Country: \`${out2["country"]}\`\n City: \`${out2["city"]}\`\n ISP: \`${out2["isp"]}\`\n Org: \`${out2["org"]}\`\n Zip Code: \`${out2["zip"]}\`\n Timezone: \`${out2["timezone"]}\`\n`)
                                         .addField("FiveM Server", `Server Name: \`${out["Data"]["hostname"].substring(0, 390)}\`\n\n Online Players: \`${out["Data"]["players"].length}\`\n Max Players: \`${out["Data"]["svMaxclients"]}\`\n Artifacts: \`${out["Data"]["server"]}\`\n Resources: \`${out["Data"]["resources"].length}\`\n Onesync Enabled?: \`${out["Data"]["vars"]["onesync_enabled"]}\`\n`, true)
-                                        .setFooter("Coded by 𝗮𝗹𝗲𝗷𝗮𝗻𝗱𝗿𝗼𝗺𝘂𝗺𝗲#𝟐𝟎𝟔𝟒")
+                                        .setFooter("pateu finder ")
                                         .setThumbnail("attachment://graph.png")
                                         .attachFiles(att)
 
@@ -71,7 +71,7 @@ bot.on('message', msg => {
                                         .addField("IP:Port", `\`${out["Data"]["connectEndPoints"][0]}\`\n\n/players.json: [Click here](http://${out["Data"]["connectEndPoints"][0]}/players.json)\n/info.json: [Click here](http://${out["Data"]["connectEndPoints"][0]}/info.json)\n/dynamic.json: [Click here](http://${out["Data"]["connectEndPoints"][0]}/dynamic.json)`)
                                         .addField("Server Details", `IP: \`${split[0]}\`\n Country: \`${out2["country"]}\`\n City: \`${out2["city"]}\`\n ISP: \`${out2["isp"]}\`\n Org: \`${out2["org"]}\`\n Zip Code: \`${out2["zip"]}\`\n Timezone: \`${out2["timezone"]}\`\n`)
                                         .addField("FiveM Server", `Server Name: \`${out["Data"]["hostname"].substring(0, 390)}\`\n\n Online Players: \`${out["Data"]["players"].length}\`\n Max Players: \`${out["Data"]["svMaxclients"]}\`\n Artifacts: \`${out["Data"]["server"]}\`\n Resources: \`${out["Data"]["resources"].length}\`\n Onesync Enabled?: \`${out["Data"]["vars"]["onesync_enabled"]}\`\n`, true)
-                                        .setFooter("Coded by 𝗮𝗹𝗲𝗷𝗮𝗻𝗱𝗿𝗼𝗺𝘂𝗺𝗲#𝟐𝟎𝟔𝟒")
+                                        .setFooter("pateu finder")
                                     msg.channel.send(mensaje);
                                 }
 
@@ -85,7 +85,7 @@ bot.on('message', msg => {
                             .setDescription("```\n Cannot find server details...```")
                             .addField("Cfx Url", `\`${out["Data"]["connectEndPoints"][0]}\``)
                             .addField("FiveM Server", `Server Name: \`${out["Data"]["hostname"].substring(0, 390)}\`\n\n Online Players: \`${out["Data"]["players"].length}\`\n Max Players: \`${out["Data"]["svMaxclients"]}\`\n Artifacts: \`${out["Data"]["server"]}\`\n Resources: \`${out["Data"]["resources"].length}\`\n Onesync Enabled?: \`${out["Data"]["vars"]["onesync_enabled"]}\`\n`, true)
-                            .setFooter("Coded by 𝗮𝗹𝗲𝗷𝗮𝗻𝗱𝗿𝗼𝗺𝘂𝗺𝗲#𝟐𝟎𝟔𝟒")
+                            .setFooter("pateu finder")
                         msg.channel.send(mensaje);
                     }
                 }).catch(() => {
@@ -93,7 +93,7 @@ bot.on('message', msg => {
                         .setColor("#c73e10")
                         .setAuthor(msg.author.tag, msg.author.avatarURL())
                         .setDescription("```\n Invalid Code```")
-                        .setFooter("Coded by 𝗮𝗹𝗲𝗷𝗮𝗻𝗱𝗿𝗼𝗺𝘂𝗺𝗲#𝟐𝟎𝟔𝟒")
+                        .setFooter("pateu finder")
                     msg.channel.send(mensaje);
 
             })
@@ -113,7 +113,7 @@ bot.on('message', msg => {
                 .setColor("#c73e10")
                 .setAuthor(msg.author.tag, msg.author.avatarURL())
                 .setDescription("```\n Invalid Code```")
-                .setFooter("Coded by 𝗮𝗹𝗲𝗷𝗮𝗻𝗱𝗿𝗼𝗺𝘂𝗺𝗲#𝟐𝟎𝟔𝟒")
+                .setFooter("pateu finder")
                 msg.channel.send(mensaje);
             }else{
                 fetch(urlfivem, { headers: headers })
@@ -123,14 +123,14 @@ bot.on('message', msg => {
                     .setAuthor(msg.author.tag, msg.author.avatarURL())
                     .setColor("#c73e10")
                     .addField("IP:Port", `\`${out["Data"]["connectEndPoints"][0]}\``)
-                    .setFooter("Coded by 𝗮𝗹𝗲𝗷𝗮𝗻𝗱𝗿𝗼𝗺𝘂𝗺𝗲#𝟐𝟎𝟔𝟒")
+                    .setFooter("pateu finder")
                     msg.channel.send(mensaje);
                 }).catch(() => {
                     const mensaje = new Discord.MessageEmbed()
                         .setColor("#c73e10")
                         .setAuthor(msg.author.tag, msg.author.avatarURL())
                         .setDescription("```\n Invalid Code```")
-                        .setFooter("Coded by 𝗮𝗹𝗲𝗷𝗮𝗻𝗱𝗿𝗼𝗺𝘂𝗺𝗲#𝟐𝟎𝟔𝟒")
+                        .setFooter("pateu finder")
                     msg.channel.send(mensaje);
 
                 })
